@@ -12,16 +12,11 @@
             </li>
           </ul>
         </div>
-        <form id="searchForm"  class="navbar-form navbar-right"  >
-          <div class="form-group">
-            <input style="padding-left:10px" value="productSearch" (ngModel)="userName" (onchange)="searchProducts($event)" *ngIf="onClickSearch" type="text" class="form-control" placeholder="Search Products" >
-          </div>
           <ul class="nav navbar-nav">
             <li>
               <search-icon (click)="onClickSearch = !onClickSearch"></search-icon>
             </li>
           </ul>        
-        </form>
       </div>
     </div>
   </div>
