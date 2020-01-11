@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
     selector:'search-icon',
-    template:`<a class="fa fa-search"></a>`,
+    templateUrl:'./search.component.html',
     styles:[
         `
         .count-class{

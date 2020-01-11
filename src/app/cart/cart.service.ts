@@ -1,11 +1,11 @@
 import {Injectable} from '@angular/core';
-import { IPRODUCT, ProductsService } from '../products';
+import { IPRODUCT } from '../products';
 
 @Injectable()
 export class CartService{
     private cartCount:number = 0;
     private cartProductIds:number[] = [];
-    constructor(private productsService:ProductsService){
+    constructor(){
 
     }
     updateCartCount(addToCart:boolean){
