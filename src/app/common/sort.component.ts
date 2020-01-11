@@ -17,7 +17,7 @@ import {Component, Output,EventEmitter} from '@angular/core';
     ]
 })
 export class SortComponent{
-    private sortOrder = TYPESOFSORT[0];
+    sortOrder = TYPESOFSORT[0];
     @Output() sortOrderType = new EventEmitter();
     constructor(){
 
